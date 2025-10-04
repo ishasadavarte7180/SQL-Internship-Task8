@@ -72,7 +72,7 @@ Expected output:
 |------------------|
 | 200.50 |
 
-![Function Screenshot](.Sscreenshots/Function.PNG)
+![Function Screenshot](./Screenshots/Function.PNG)
 
 ---
 
