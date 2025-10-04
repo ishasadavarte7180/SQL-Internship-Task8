@@ -67,12 +67,8 @@ SELECT total_spent(1) AS customer1_total;
 ```
 
 📸 **Screenshot 2:** *Function created and tested successfully.*  
-Expected output:  
-| customer1_total |
-|------------------|
-| 200.50 |
 
-![Function Screenshot](./Screenshots/Function.PNG)
+![Function Screenshot](Screenshots/Function.PNG)
 
 ---
 
@@ -110,12 +106,7 @@ SELECT @new_order_id AS inserted_order_id;
 ```
 
 📸 **Screenshot 3:** *Procedure created successfully and order inserted.*  
-Expected output:  
-| inserted_order_id |
-|-------------------|
-| 4                 |
-
-![Procedure Screenshot](./Screenshots/Procedure.PNG)
+![Procedure Screenshot](Screenshots/Procedure.PNG)
 
 ---
 
@@ -131,22 +122,11 @@ SELECT total_spent(1) AS updated_total;
 ```
 
 📸 **Screenshot 4:** *All orders for Customer 1*  
-Expected output:  
-| OrderID | CustomerID | Amount | OrderDate  |
-|----------|-------------|---------|-------------|
-| 1        | 1           | 120.50  | 2025-10-04  |
-| 2        | 1           | 80.00   | 2025-10-04  |
-| 4        | 1           | 150.75  | 2025-10-04  |
-
-![Orders Screenshot](./Screenshots/Verify_order_table.PNG)
+![Orders Screenshot](Screenshots/Verify_order_table.PNG)
 
 📸 **Screenshot 5:** *Updated total spent by Customer 1*  
-Expected output:  
-| updated_total |
-|----------------|
-| 351.25         |
 
-![Total Screenshot](./Screenshots/Total_spent.PNG)
+![Total Screenshot](Screenshots/Total_spent.PNG)
 
 ---
 
