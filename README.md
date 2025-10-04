@@ -123,7 +123,7 @@ SELECT total_spent(1) AS updated_total;
 
 📸 **Screenshot :** *All orders for Customer 1*  
 
-[Orders Screenshot](./Screenshots/Verify_order _table.PNG)
+[Orders Screenshot](./Screenshots/Verify_order_table.PNG)
 
 📸 **Screenshot :** *Updated total spent by Customer 1*  
 
